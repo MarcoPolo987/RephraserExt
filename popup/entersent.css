@@ -1,0 +1,53 @@
+html,
+body {
+    width: 450px;
+    font-size: 100%;
+    font-family: "Courier New", monospace;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    border: 100%;
+    width: 100%;
+    margin: 3% auto;
+    padding: 4px;
+    text-decoration: underline;
+    font-size: 150%;
+    font-style: bold;
+    font-family: "Monaco", monospace;
+}
+
+.sub {
+    box-sizing: border-box;
+    border: 100%;
+    width: 100%;
+    margin: 3% auto;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #E5F2F2;
+}
+
+.sub:hover {
+    background-color: #8feaea;
+}
+
+input {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 2% auto;
+    padding: 4px;
+}
+
+label {
+    border: 100%;
+    width: 100%;
+    margin: 2% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 150%;
+    background-color: #ffffff;
+}
